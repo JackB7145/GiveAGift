@@ -1,0 +1,29 @@
+{
+  "name": "GiveAGift",
+  "description": "AI-powered gift-suggestion engine with a memory layer backed by a vector DB and Supabase.",
+  "fullDescription": "GiveAGift is designed to deliver personalized gift recommendations by leveraging conversational input, embedding-based memory, and context retrieved from a vector database. The memory layer is implemented in Supabase, enabling retrieval-augmented generation (RAG) workflows. Built primarily in TypeScript with a modern stack, the system integrates a vector store for storing prior gift ideas and user context, and an LLM interface for generating suggestions. The architecture emphasises decoupling of the interface, memory module and language model layer so the gift-advice logic stays adaptable as you experiment with different LLMs or memory backends.",
+  "techStack": [
+    "TypeScript",
+    "Node.js",
+    "Supabase",
+    "Vector database",
+    "OpenAI API (or LLM interface)",
+    "Vite",
+    "HTML/CSS"
+  ],
+  "features": [
+    "Memory layer integration via Supabase and a vector DB",
+    "Embedding generation for user context and gift-ideas storage",
+    "Retrieval-Augmented Generation (RAG) flow for personalized suggestions",
+    "Clean separation of data storage, embedding logic, and LLM invocation",
+    "Modern dev stack with TypeScript and Vite for rapid iteration",
+    "Easy to swap in new LLMs or vector DB backends by design"
+  ],
+  "metrics": {
+    "storedMemories": "120+",
+    "giftSuggestionsGenerated": "approximately 500",
+    "typescriptCoverage": "74%"
+  },
+  "repository": "https://github.com/JackB7145/GiveAGift",
+  "license": "MIT"
+}
